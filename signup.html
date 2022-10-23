@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heroImage">
+      <div class="pageTitle">
+        <img class="logo" src="odin-lined.png" alt="Odin lined logo" />
+        <h1>THE ODIN PROJECT</h1>
+      </div>
+
+      <img class="heroImage" src="fern.jpg" alt="Fern" />
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@xteemu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Teemu Paananen</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/fern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+    </div>
+    <div class="main">
+      <p>Sign up for all the lastest news and events from us.</p>
+
+      <form action="">
+        <div class="inputArea">
+          <h2>Let's do this!</h2>
+          <div class="input">
+            <label for="firstName">First name:</label>
+            <input type="text" class="firstName" />
+          </div>
+          <div class="input">
+            <label for="surname">Surname:</label>
+            <input type="text" class="surname" />
+          </div>
+          <div class="input">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              title="Must be a valid email address"
+              class="email"
+            />
+          </div>
+          <div class="input">
+            <label for="phone">Contact number:</label>
+            <input type="number" pattern="[0-9]{10}" class="phone" />
+          </div>
+          <div class="input">
+            <label for="password">Password:</label>
+            <input type="password" class="password" />
+          </div>
+          <div class="input">
+            <label for="confirmPassword">Confirm password:</label>
+            <input type="confirmPassword" class="confirmPassword" />
+          </div>
+        </div>
+
+        <button class="createAccount">Create account</button>
+      </form>
+      <p class="haveAccount">
+        Already have an account? <a href="login.html" class="logIn">Log in</a>
+      </p>
+    </div>
+  </body>
+</html>
